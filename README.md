@@ -62,5 +62,16 @@ pip install -r requirements.txt
 ```bash
 streamlit run app/streamlit_app.py
 ```
+
+### 📊 Dataset
+```
+Source: Store Item Demand Forecasting Challenge – Kaggle
+Columns:
+date – Date of sales
+store – Store ID (1–10)
+item – Item ID (1–50)
+sales – Number of items sold
+```
 ## 📷 Screenshots
+![DashBorad](./screenshots/Screenshot (884).png)
 
