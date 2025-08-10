@@ -1,6 +1,6 @@
 # 📊 AI-Powered Sales Forecasting Dashboard
 
-![Project Banner](banner.png)
+![Project Banner](1_b4_2bCCwcmLtu-3tWN50IQ.jpg)
 
 ## 🚀 Overview
 An interactive **AI-powered Sales Forecasting Dashboard** that combines **Facebook Prophet** and **XGBoost** to predict future sales, generate automatic business insights, and visualize trends in an intuitive **Streamlit** interface.  
@@ -23,26 +23,18 @@ sales-forecasting-dashboard/
 │
 ├── data/
 │ └── train.csv # Sample sales dataset
-│
-├── models/
-│ ├── prophet_model.pkl # Saved Prophet model
-│ ├── xgboost_model.pkl # Saved XGBoost model
-│
-├── notebooks/
-│ └── exploration.ipynb # Data exploration & preprocessing
-│
-├── scripts/
-│ ├── prophet_forecast.py # Prophet model forecasting
-│ ├── xgboost_forecast.py # XGBoost model forecasting
-│
+|
 ├── app/
-│ ├── streamlit_app.py # Main dashboard application
-│ └── utils.py # Helper functions
-│
+│   ├── more_adv_salse_forecast.py  # Advanced Streamlit app with Prophet + XGBoost
+|
 ├── banner.png # Project banner image
+|
 ├── requirements.txt # Python dependencies
+|
 ├── README.md # Project documentation
+|
 └── LICENSE
+
 ```
 ---
 
