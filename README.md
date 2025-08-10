@@ -47,11 +47,30 @@ sales-forecasting-dashboard/
 - **Version Control:** Git, GitHub
 ---
 
+### 📊 Dataset
+
++ **Source:** Store Item Demand Forecasting Challenge – Kaggle
++ **Columns:**
+  - date – Date of sales
+  - store – Store ID (1–10)
+  - item – Item ID (1–50)
+  - sales – Number of items sold
+
+
+### ⚡ How It Works
+- User selects a store and item from the sidebar.
+- Historical sales data is extracted and pre-processed.
+- Forecasting is done using:
+- Prophet for seasonality and trends
+- Optional XGBoost for improved accuracy
+- Insights are auto-generated (growth %, peak month).
+- Results are visualized and can be downloaded.
+
 ## 📦 Installation & Setup
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/your-username/sales-forecasting-dashboard.git
+git clone https://github.com/THeOLdMAn48/sales-forecasting-dashboard.git
 cd sales-forecasting-dashboard
 ```
 ### 2️⃣ Install dependencies
@@ -60,18 +79,28 @@ pip install -r requirements.txt
 ```
 ### 3️⃣ Run the app
 ```bash
-streamlit run app/streamlit_app.py
+streamlit run app/more_adv_salse_forecast.py
 ```
 
-### 📊 Dataset
-```
-Source: Store Item Demand Forecasting Challenge – Kaggle
-Columns:
-date – Date of sales
-store – Store ID (1–10)
-item – Item ID (1–50)
-sales – Number of items sold
-```
 ## 📷 Screenshots
-![DashBorad](./screenshots/Screenshot (884).png)
+![My Image](screenshots/Screenshot%20(884).png)
+
+
+### 📊 Sales Forecast Insights
+```
+- Next 6 months me sales me 12.45% change expected hai.
+- Peak sales month: November 2018.
+```
+
+### 📌 Future Enhancements
+- ✅ Deploy on Streamlit Cloud or Hugging Face Spaces
+- ✅ Add LSTM / Neural Prophet models for deep learning forecasts
+- ✅ Build Power BI / Looker Studio dashboard integration
+
+### 🤝 Contributing
+- Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+### 📜 License
+ - This project is licensed under the MIT License.
+
 
