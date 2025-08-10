@@ -27,7 +27,7 @@ sales-forecasting-dashboard/
 ├── app/
 │   ├── more_adv_salse_forecast.py  # Advanced Streamlit app with Prophet + XGBoost
 |
-├── banner.png # Project banner image
+├── 1_b4_2bCCwcmLtu-3tWN50IQ.jpg # Project banner image
 |
 ├── requirements.txt # Python dependencies
 |
