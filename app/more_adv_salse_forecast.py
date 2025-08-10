@@ -18,7 +18,7 @@ st.set_page_config(page_title="Multi-Model Sales Forecast", layout="wide")
 
 # --------- Helpers ----------
 @st.cache_data
-def load_data(path="train.csv"):
+def load_data(path="data/train.csv"):
     df = pd.read_csv(path)
     df['date'] = pd.to_datetime(df['date'])
     return df
